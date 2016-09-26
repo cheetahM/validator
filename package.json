@@ -1,0 +1,26 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec -t 500 --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheetahM/validator.git"
+  },
+  "keywords": [
+    "BDD"
+  ],
+  "author": "Chetan Meshram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cheetahM/validator/issues"
+  },
+  "homepage": "https://github.com/cheetahM/validator#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
